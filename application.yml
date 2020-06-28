@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: ws-yoke-event
+
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+
+
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5434/postgres
+    username: postgres
+    password: postgres
+
+yoke:
+  notify:
+    url: http://localhost:8085/event
+
+server:
+  port: 8083
+    
