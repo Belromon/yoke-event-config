@@ -18,10 +18,15 @@ spring:
 
 encrypt:
   key: _LT_54MX2e<T)ovEZRa7J##VlEMG}Y
+  
+eureka:
+ client:
+   serviceUrl:
+     defaultZone: http://localhost:8761/eureka/
 
-yoke:
-  notify:
-    url: http://localhost:8085/event
+#yoke:
+#  notify:
+#    url: http://localhost:8085/event
 
 server:
   port: 8083
