@@ -15,9 +15,6 @@ spring:
     url: jdbc:postgresql://localhost:5434/postgres
     username: postgres
     password: postgres
-
-encrypt:
-  key: _LT_54MX2e<T)ovEZRa7J##VlEMG}Y
   
 eureka:
  client:
