@@ -12,14 +12,14 @@ spring:
 
   datasource:
     platform: postgres
-    url: jdbc:postgresql://localhost:5435/postgres
+    url: jdbc:postgresql://yoke-event-postgres:5435/postgres
     username: postgres
     password: postgres
   
 eureka:
  client:
    serviceUrl:
-     defaultZone: http://localhost:8761/eureka/
+     defaultZone: http://eureka:8761/eureka/
 
 yoke:
   notify:
